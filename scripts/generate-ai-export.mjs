@@ -69,7 +69,14 @@ function renderProcess(process) {
     '',
     operational.calendarNote,
     '',
-    ...operational.milestones.map((item) => `- **${item.start} to ${item.end} — ${item.label} (${item.status}):** ${item.detail}`),
+    ...operational.milestones.filter((item) => item.status !== 'recent cycle').map((item) => `- **${item.start} to ${item.end} — ${item.label} (${item.status}):** ${item.detail}`),
+    '',
+    '### 2027 file watch',
+    '',
+    `- **Published:** ${process.fileWatch.published}`,
+    `- **Expected next:** ${process.fileWatch.expected}`,
+    `- **Official page:** ${linkedLabel(process.fileWatch.source.label, process.fileWatch.source.href)}`,
+    `- **Practical route:** ${process.fileWatch.route}`,
     '',
     `**What to follow:** ${process.negotiations.focus}`,
     '',
@@ -87,8 +94,9 @@ function renderProcess(process) {
     lines.push(`- **${item.when} — ${linkedLabel(item.action, item.href)}:** ${item.detail}`);
   });
 
-  lines.push('', '## Examples', '');
-  process.examples.filter((example) => example.state === 'verified').forEach((example) => {
+  const verifiedExamples = process.examples.filter((example) => example.state === 'verified');
+  if (verifiedExamples.length) lines.push('', '## Examples', '');
+  verifiedExamples.forEach((example) => {
     lines.push(
       `- **${example.kind} — ${linkedLabel(example.title, example.href)}**`,
       `  - ${example.detail}`,

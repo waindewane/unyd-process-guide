@@ -81,6 +81,7 @@ function PlanningLegend() {
 
 function ProcessPlanningCalendar({ process }: { process: ProcessGuide }) {
   const note = operationalNotes[process.id];
+  const currentMilestones = note.milestones.filter((milestone) => milestone.status !== 'recent cycle');
   return (
     <section className={`process-planning process-${process.id}`}>
       <div className="planning-heading">
@@ -95,7 +96,7 @@ function ProcessPlanningCalendar({ process }: { process: ProcessGuide }) {
       <div className="planning-table-scroll" role="region" aria-label={`${process.acronym} 2027 preparation calendar`} tabIndex={0}>
         <div className="planning-table">
           <div className="planning-months"><span />{months.map((month) => <b key={month}>{month}</b>)}</div>
-          {note.milestones.map((milestone) => (
+          {currentMilestones.map((milestone) => (
             <div className="planning-row" key={`${milestone.start}-${milestone.label}`}>
               <div className="planning-label"><strong>{milestone.label}</strong><span>{milestone.status}</span></div>
               <div className="planning-track"><span className={`planning-bar kind-${milestone.kind} status-${milestone.status.replaceAll(' ', '-')}`} style={milestoneStyle(milestone)} title={`${milestone.label}: ${milestone.detail}`} /></div>
@@ -204,7 +205,7 @@ function CombinedPlanningCalendar({ selectProcess }: { selectProcess: (id: strin
             <div className={`combined-process-row process-${process.id}`} key={process.id}>
               <button className="combined-process-label" onClick={() => selectProcess(process.id)}><strong>{process.acronym}</strong><span>{process.location}</span></button>
               <div className="combined-process-track">
-                {operationalNotes[process.id].milestones.map((milestone) => (
+                {operationalNotes[process.id].milestones.filter((milestone) => milestone.status !== 'recent cycle').map((milestone) => (
                   <button
                     key={`${milestone.start}-${milestone.label}`}
                     className={`combined-bar kind-${milestone.kind} status-${milestone.status.replaceAll(' ', '-')} lane-${milestone.lane}`}
@@ -224,7 +225,7 @@ function CombinedPlanningCalendar({ selectProcess }: { selectProcess: (id: strin
         </div>
       </div>
       <PlanningLegend />
-      <p className="calendar-caveat">Tentative and recent-cycle bars are early-warning ranges, not UN deadlines. Recent-cycle bars reproduce dated precedents; tentative bars are clearly identified projections. Check the linked official process page before acting on them.</p>
+      <p className="calendar-caveat">Tentative bars are early-warning projections, not UN deadlines. Historical precedents remain in the process timelines instead of being plotted on the 2027 axis. Check the linked official process page before acting on a projected date.</p>
       {tooltip && (
         <div id="calendar-milestone-tooltip" className={`calendar-tooltip ${tooltip.above ? 'above' : ''}`} role="tooltip" style={{ left: tooltip.left, top: tooltip.top }}>
           <strong>{tooltip.process.acronym} · {tooltip.milestone.label}</strong>
@@ -287,6 +288,15 @@ function ProcessContent({ process, tab }: { process: ProcessGuide; tab: Tab }) {
     return (
       <div className="section-stack">
         <ProcessPlanningCalendar process={process} />
+        <section className="file-watch" aria-labelledby={`${process.id}-file-watch-title`}>
+          <h3 id={`${process.id}-file-watch-title`}>2027 file watch</h3>
+          <dl>
+            <div><dt>Published</dt><dd>{process.fileWatch.published}</dd></div>
+            <div><dt>Expected next</dt><dd>{process.fileWatch.expected}</dd></div>
+            <div><dt>Official page</dt><dd><a href={process.fileWatch.source.href} target="_blank" rel="noreferrer">{process.fileWatch.source.label} ↗</a></dd></div>
+            <div><dt>Practical route</dt><dd>{process.fileWatch.route}</dd></div>
+          </dl>
+        </section>
         <section>
           <h3>What to follow</h3>
           <p>{process.negotiations.focus}</p>
@@ -510,7 +520,7 @@ export default function Home() {
           <ProcessStructure process={activeProcess} />
 
           <div className="tabs" role="tablist" aria-label={`${activeProcess.acronym} sections`}>
-            {tabs.map((tab) => <button key={tab.id} role="tab" aria-selected={activeTab === tab.id} className={activeTab === tab.id ? 'active' : ''} onClick={() => setActiveTab(tab.id)}>{tab.label}</button>)}
+            {tabs.filter((tab) => tab.id !== 'examples' || activeProcess.examples.length > 0).map((tab) => <button key={tab.id} role="tab" aria-selected={activeTab === tab.id} className={activeTab === tab.id ? 'active' : ''} onClick={() => setActiveTab(tab.id)}>{tab.label}</button>)}
           </div>
           <div className="tab-content" role="tabpanel"><ProcessContent process={activeProcess} tab={activeTab} /></div>
         </article>

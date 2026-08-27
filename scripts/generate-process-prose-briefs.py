@@ -201,10 +201,18 @@ def generate_document(data, process, output_path):
 
     document.add_heading("Preparation and negotiation calendar", level=1)
     document.add_paragraph(operational["calendarNote"])
-    for milestone in operational["milestones"]:
+    for milestone in (item for item in operational["milestones"] if item["status"] != "recent cycle"):
         label = f"{milestone['label']} — {milestone['start']} to {milestone['end']}"
         text = f"{milestone['detail']} Status: {milestone['status']}."
         add_bullet(document, text, label=label)
+
+    document.add_heading("2027 file watch", level=2)
+    add_labeled_paragraph(document, "Published", process["fileWatch"]["published"])
+    add_labeled_paragraph(document, "Expected next", process["fileWatch"]["expected"])
+    source_paragraph = document.add_paragraph()
+    add_text(source_paragraph, "Official page: ", bold=True)
+    add_hyperlink(source_paragraph, process["fileWatch"]["source"]["label"], process["fileWatch"]["source"]["href"])
+    add_labeled_paragraph(document, "Practical route", process["fileWatch"]["route"])
 
     document.add_heading("Negotiations and policy work", level=1)
     add_labeled_paragraph(document, "What to follow", process["negotiations"]["focus"])
@@ -231,9 +239,9 @@ def generate_document(data, process, output_path):
             add_text(paragraph, item["action"], bold=True)
         add_text(paragraph, f": {item['detail']}")
 
-    document.add_heading("Examples", level=1)
     verified_examples = [example for example in process["examples"] if example["state"] == "verified"]
     if verified_examples:
+        document.add_heading("Examples", level=1)
         for example in verified_examples:
             paragraph = document.add_paragraph()
             add_text(paragraph, f"{example['kind']} — ", bold=True)
@@ -242,9 +250,6 @@ def generate_document(data, process, output_path):
             else:
                 add_text(paragraph, example["title"], bold=True)
             add_text(paragraph, f". {example['detail']}")
-    else:
-        document.add_paragraph("No verified public example is currently included on the website for this process.")
-
     document.add_heading("Contacts", level=1)
     for contact in process["contacts"]:
         paragraph = document.add_paragraph(style="List Bullet")

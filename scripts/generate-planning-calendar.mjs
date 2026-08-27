@@ -25,7 +25,7 @@ function escape(value) {
 
 const events = Object.entries(operationalNotes).flatMap(([id, note]) => {
   const process = processById[id];
-  return note.milestones.map((milestone) => {
+  return note.milestones.filter((milestone) => milestone.status !== 'recent cycle').map((milestone) => {
     const planningPrefix = milestone.kind === 'session' ? '' : '[Planning] ';
     const summary = `${planningPrefix}${process.acronym}: ${milestone.label}`;
     const description = `${milestone.detail}\nStatus: ${milestone.status}. ${note.calendarNote}\nOfficial process source: ${process.sources[0].href}`;
@@ -51,7 +51,7 @@ const content = [
   'CALSCALE:GREGORIAN',
   'METHOD:PUBLISH',
   'X-WR-CALNAME:UNYD 2027 policy and negotiation planning',
-  'X-WR-CALDESC:Official session dates plus clearly labelled recent-cycle and indicative preparation milestones.',
+  'X-WR-CALDESC:Official session dates plus clearly labelled tentative preparation milestones. Historical precedents are not placed on the 2027 calendar.',
   ...events,
   'END:VCALENDAR',
   '',

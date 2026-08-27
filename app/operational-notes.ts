@@ -41,6 +41,13 @@ export const operationalNotes: Record<string, OperationalNote> = {
       youthRelevance: 'A recurring resolution on policies and programmes involving youth has followed a biennial cycle; a 2027 iteration is expected but not yet treated as formally tabled.',
       strategicEntryPoints: [
         {
+          title: 'CSocD65 priority theme and Bureau',
+          timing: 'Published for 2027',
+          detail: 'The priority theme is intergenerational approaches to social development and implementation of the Copenhagen and Doha commitments towards 2030 and beyond. Stefano Guerra of Portugal is the current Chair; the official page lists the full Bureau. The Chair’s role should not be confused with sponsorship of a specific resolution.',
+          status: 'Official 2027 information',
+          href: 'https://social.desa.un.org/csocd/65th-session',
+        },
+        {
           title: 'Policies and programmes involving youth',
           timing: 'Odd years · established biennial cycle',
           detail: 'The resolution was adopted in 2015, 2017, 2019, 2021, 2023 and 2025. A 2027 iteration is expected from that pattern, but should not be described as tabled until CSocD65 publishes the draft.',
@@ -96,9 +103,9 @@ export const operationalNotes: Record<string, OperationalNote> = {
         {
           title: 'Priority theme and review theme',
           timing: 'Every annual session',
-          detail: 'The priority theme normally produces negotiated Agreed Conclusions. The review theme assesses implementation of an earlier outcome and does not normally create a second Agreed Conclusions text.',
-          status: 'Recurring CSW structure',
-          href: 'https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women',
+          detail: 'For CSW71, the priority theme is accelerating gender equality and the empowerment of all women and girls in the context of the 2030 Agenda. The review theme is implementation of the CSW66 Agreed Conclusions on climate change, environment and disaster-risk reduction. The priority theme normally produces the negotiated Agreed Conclusions; the review theme does not create a second outcome text.',
+          status: 'Official 2027 themes',
+          href: 'https://documents.un.org/api/symbol/access?l=en&s=E%2FRES%2F2025%2F3&t=pdf',
         },
         {
           title: 'Official documents and proposed organization of work',
@@ -130,7 +137,7 @@ export const operationalNotes: Record<string, OperationalNote> = {
       { label: 'Draft markup window', detail: 'The 2025 Austrian record shows clause-specific UNYD wording prepared immediately after draft circulation. The equivalent 2027 window depends on receiving the current text.', start: '2027-01-27', end: '2027-01-29', kind: 'draft', status: 'recent cycle', lane: 2 },
       { label: 'National submission window', detail: 'Austrian UNYD wording was transmitted on 28 January 2025 for consideration in the national position. The 2027 internal route and deadline remain unknown.', start: '2027-01-28', end: '2027-01-29', kind: 'negotiate', status: 'recent cycle', lane: 1 },
       { label: 'CSW Youth Forum · date TBC', detail: 'The CSW Youth Forum is recurring and was held at CSW68, CSW69 and CSW70. Its 2027 date and participation conditions have not yet been published.', start: '2027-03-07', end: '2027-03-14', kind: 'session', status: 'tentative', lane: 1 },
-      { label: 'CSW71', detail: 'Official provisional session dates.', start: '2027-03-08', end: '2027-03-19', kind: 'session', status: 'official', lane: 0 },
+      { label: 'CSW71', detail: 'Official provisional session dates.', start: '2027-03-08', end: '2027-03-19', kind: 'session', status: 'official provisional', lane: 0 },
     ],
   },
   'ecosoc-yf': {
@@ -141,6 +148,13 @@ export const operationalNotes: Record<string, OperationalNote> = {
       access: 'Delegation status determines official participation; event and speaker roles follow separate calls and coordination channels.',
       youthRelevance: 'The Forum is designed around youth participation and is especially useful for statements, institutional access, collaboration and initiatives.',
       strategicEntryPoints: [
+        {
+          title: 'ECOSOC President’s invitation letter',
+          timing: 'Usually December–January',
+          detail: 'The letter goes to Permanent Representatives and is the first concrete delegation checkpoint. The 2026 letter explicitly invited countries to include UN Youth Delegates; the 2027 letter will determine whether that invitation and any named participation contact recur.',
+          status: 'Annual official invitation; 2027 letter pending',
+          href: 'https://ecosoc.un.org/sites/default/files/2026-01/PECOSOC%20letter%209%20Jan%202026.pdf',
+        },
         {
           title: 'Official side-event call',
           timing: 'Usually February–March · exact deadline changes',
@@ -177,7 +191,7 @@ export const operationalNotes: Record<string, OperationalNote> = {
       { label: 'DESA side-event proposal deadline', detail: 'The 2025 side-event proposal was submitted on 5 March, matching that cycle’s official call deadline. The 2027 call has not yet been published.', start: '2027-03-01', end: '2027-03-05', kind: 'draft', status: 'recent cycle', lane: 2 },
       { label: 'DESA review and approval', detail: 'In the documented 2025 cycle, DESA acknowledged the proposal on 12 March and approved it on 17 March. A submitted proposal should not be treated as accepted before this confirmation.', start: '2027-03-06', end: '2027-03-17', kind: 'follow-up', status: 'recent cycle', lane: 1 },
       { label: 'National delegation briefing and statement request', detail: 'In 2025, the Austrian concept note and speaking request reached the Austrian authorities and Permanent Mission in New York by 21 March. This is a dated precedent, not a universal Forum deadline.', start: '2027-03-08', end: '2027-03-21', kind: 'prepare', status: 'recent cycle', lane: 0 },
-      { label: 'Youth Forum', detail: 'Official provisional forum dates.', start: '2027-04-13', end: '2027-04-15', kind: 'session', status: 'official', lane: 1 },
+      { label: 'Youth Forum', detail: 'Official provisional forum dates.', start: '2027-04-13', end: '2027-04-15', kind: 'session', status: 'official provisional', lane: 1 },
     ],
   },
   hlpf: {
@@ -188,6 +202,27 @@ export const operationalNotes: Record<string, OperationalNote> = {
       access: 'The national delegation and VNR process shape official roles; negotiation input normally moves through the country’s Permanent Mission in New York and the SDG Summit political-declaration co-facilitators.',
       youthRelevance: 'Youth delegates can connect national SDG implementation with the multilateral review, contribute to statements or the VNR, and organize meetings and events.',
       strategicEntryPoints: [
+        {
+          title: '2027 theme and SDGs under review',
+          timing: 'Published for 2027',
+          detail: 'The 2027 theme is scaling up just transitions to achieve sustainable development, eradicate poverty and fully implement the 2030 Agenda and its SDGs. Goals 4, 10, 12, 15 and 17 will receive in-depth review.',
+          status: 'Official 2027 framework',
+          href: 'https://hlpf.un.org/',
+        },
+        {
+          title: 'Regional Forums on Sustainable Development',
+          timing: 'Usually before the July HLPF · dates set regionally',
+          detail: 'The five UN regional commissions convene official preparatory forums. Their programmes can provide a regional youth-entry point even when the country is not presenting a VNR, but participation and youth sessions differ by region.',
+          status: 'Recurring official preparatory process; 2027 dates pending',
+          href: 'https://hlpf.un.org/2026/preparation',
+        },
+        {
+          title: 'VNR workshops and knowledge exchanges',
+          timing: 'Across the VNR cycle · for reviewing countries',
+          detail: 'Official workshops and exchanges explain the current VNR guidance, deadlines and expectations for stakeholder participation. They are useful before the national report and New York presentation are finalized.',
+          status: 'Recurring official VNR support; 2027 schedule pending',
+          href: 'https://hlpf.un.org/vnrs',
+        },
         {
           title: 'Voluntary National Review country process',
           timing: 'Previous autumn–June · only for reviewing countries',
@@ -229,7 +264,7 @@ export const operationalNotes: Record<string, OperationalNote> = {
     milestones: [
       { label: 'SDG Summit political-declaration zero draft', detail: 'The 2023 Summit precedent placed the zero draft on 8 May. The 2027 co-facilitators have not yet published a timetable.', start: '2027-05-03', end: '2027-05-14', kind: 'draft', status: 'recent cycle', lane: 2 },
       { label: 'Political-declaration consultations and revisions', detail: 'The 2023 precedent used June consultations and a final draft in July. These dates are an early-warning range, not a 2027 deadline.', start: '2027-06-01', end: '2027-07-23', kind: 'negotiate', status: 'recent cycle', lane: 0 },
-      { label: 'HLPF', detail: 'Official provisional forum dates.', start: '2027-07-06', end: '2027-07-15', kind: 'session', status: 'official', lane: 2 },
+      { label: 'HLPF', detail: 'Official provisional forum dates.', start: '2027-07-06', end: '2027-07-15', kind: 'session', status: 'official provisional', lane: 2 },
       { label: 'SDG Summit', detail: 'The Heads-of-State HLPF under the General Assembly will take place in September 2027. Exact dates are not yet published.', start: '2027-09-20', end: '2027-09-22', kind: 'session', status: 'tentative', lane: 1 },
     ],
   },
@@ -247,9 +282,12 @@ export const operationalNotes: Record<string, OperationalNote> = {
           detail: 'The meeting pages, calendar, documentation and proposals view answer different questions: what is happening, when an agenda item is heard, which report is presented, what text is before the Committee and what action it took.',
           status: 'Public official working pages',
           links: [
+            { label: 'UN Journal', href: 'https://journal.un.org/' },
             { label: 'Third Committee', href: 'https://www.un.org/en/ga/third/' },
             { label: 'UNGA80 meetings', href: 'https://igov.un.org/ga/c3/80/meetings' },
             { label: 'UNGA80 proposals', href: 'https://igov.un.org/ga/c3/80/proposals' },
+            { label: 'Documentation, voting and drafting guidance', href: 'https://www.un.org/en/ga/third/80/documentation.shtml' },
+            { label: 'UN Editorial Manual', href: 'https://www.un.org/dgacm/en/content/editorial-manual' },
           ],
         },
         {
@@ -315,7 +353,7 @@ export const operationalNotes: Record<string, OperationalNote> = {
       { label: '2027 UNGA Youth Resolution facilitator', detail: 'Tentative window for confirming which Member State and Permanent Mission will facilitate the expected biennial Third Committee resolution on policies and programmes involving youth. The facilitator changes between cycles.', start: '2027-07-19', end: '2027-08-13', kind: 'prepare', status: 'tentative', lane: 0 },
       { label: 'Facilitator pre-draft meeting window', detail: 'In 2025, the meeting with the Portuguese facilitator took place on 25 August, before the zero draft. At least one week was allowed for outreach.', start: '2027-08-16', end: '2027-08-27', kind: 'prepare', status: 'recent cycle', lane: 1 },
       { label: 'Pre-zero-draft language consolidation', detail: 'The 2025 group used September to organize priorities and possible language before the new draft existed; this was preparation, not formal Member State input.', start: '2027-08-30', end: '2027-09-24', kind: 'draft', status: 'recent cycle', lane: 0 },
-      { label: 'UNGA opening and High-level Week', detail: 'Opening is fixed by rule; High-level Week dates follow the official programme.', start: '2027-09-14', end: '2027-09-27', kind: 'session', status: 'official', lane: 2 },
+      { label: 'UNGA opening and High-level Week', detail: 'UNGA82 opens on 7 September 2027; the general debate opens on 21 September. Other High-level Week events follow the official programme.', start: '2027-09-07', end: '2027-09-27', kind: 'session', status: 'official', lane: 2 },
       { label: 'Third Committee opening window', detail: 'Tentative 2027 window based on the recurring early-October pattern; the official programme has not yet been published.', start: '2027-10-01', end: '2027-10-08', kind: 'session', status: 'tentative', lane: 0 },
       { label: 'UNGA Youth Resolution zero draft and national deadline', detail: 'In 2025, the zero draft of the Third Committee resolution on policies and programmes involving youth was released on 3 October and Member State comments were due on 8 October. The national internal deadline may fall earlier.', start: '2027-10-03', end: '2027-10-08', kind: 'draft', status: 'recent cycle', lane: 1 },
       { label: 'National wording-submission window', detail: 'In 2025, Austrian UN Youth Delegates used this short period to send clause-specific additions, deletions and amendments to the officials coordinating Austria’s position on the live zero draft.', start: '2027-10-04', end: '2027-10-08', kind: 'negotiate', status: 'recent cycle', lane: 2 },
@@ -332,6 +370,13 @@ export const operationalNotes: Record<string, OperationalNote> = {
       access: 'Official delegation status, coordination with the country’s Permanent Mission in Geneva and the session-specific speaker and resolution procedures determine practical access.',
       youthRelevance: 'The most useful entry points are recurring, session-specific files. The cycles below are more actionable than treating the Council as one general annual event.',
       strategicEntryPoints: [
+        {
+          title: 'OHCHR calls for input',
+          timing: 'Rolling deadlines · mechanism-specific',
+          detail: 'Special Procedures and other mechanisms publish calls that identify the report, questions, eligible contributors and deadline. This is a separate written-input route, not participation through a national delegation; eligibility and confidentiality must be checked in each call.',
+          status: 'Official rolling directory',
+          href: 'https://www.ohchr.org/en/calls-for-input-listing',
+        },
         {
           title: 'Youth and human rights resolution',
           timing: 'September session · recent even-year cycle',
@@ -397,8 +442,15 @@ export const operationalNotes: Record<string, OperationalNote> = {
       outputs: 'A small annual package of policy resolutions, treaty-based drug-scheduling decisions and occasional declarations or recommendations to ECOSOC and the General Assembly.',
       workingStructure: 'Plenary considers the agenda and adopts outcomes; the parallel Committee of the Whole works through draft resolutions before they return to plenary for action.',
       access: 'Only a State member of the Commission can table a draft. Practical UNYD access to sponsor drafts, informal consultations and the Committee of the Whole therefore depends on the national delegation and the country’s Permanent Mission in Vienna.',
-      youthRelevance: 'CND does not have one recurring youth resolution. The clearest current youth-specific opening is the independent expert panel established by resolution 68/6: it must consult youth groups and its recommendations are due for discussion at CND70 in 2027.',
+      youthRelevance: 'CND does not have one recurring youth resolution. Two separate youth-specific openings are the annual UNODC Youth Forum and the independent expert panel established by resolution 68/6, which must consult youth groups and return to CND70 in 2027.',
       strategicEntryPoints: [
+        {
+          title: 'Annual UNODC Youth Forum',
+          timing: 'Nomination can begin in the previous summer · event around CND',
+          detail: 'UNODC organizes the Forum with ongoing support from the Government of the Russian Federation. It is not a UN Youth Delegate forum: Member States nominate participants through their Permanent Missions, UNODC selects them and they participate in their personal capacity. Some UN Youth Delegates have participated, but the official reports do not consistently identify UNYD status. The Forum produces a collective youth statement delivered to CND.',
+          status: 'Annual adjacent participation route; 2027 nomination pending',
+          href: 'https://www.unodc.org/res/prevention/youth-initiative/youth-forum-2025_html/Youth_Forum_2025_Report_Final.pdf',
+        },
         {
           title: 'Annual draft-resolution package',
           timing: 'Deadline normally four weeks before the session',
