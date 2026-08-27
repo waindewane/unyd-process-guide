@@ -1,0 +1,408 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UNYD Process Guide//2027 Planning Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UNYD 2027 policy and negotiation planning
+X-WR-CALDESC:Official session dates plus clearly labelled recent-cycle and indicative preparation milestones.
+BEGIN:VEVENT
+UID:csocd-2027-01-17-csocd-youth-resolution-zero-draft-input@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:[Planning] CSocD: CSocD youth-resolution zero-draft input
+LOCATION:New York
+DESCRIPTION:Austrian UN Youth Delegates sent comments on the CSocD63 resolution on policies and programmes involving youth to the officials coordinating Austria’s position on 17 January 2025. The exact draft-circulation and internal-deadline dates were not recovered and are therefore not projected.\nStatus: recent cycle. The sequence separates general priority-setting before the zero draft from clause-specific recommendations after it arrives. January timing uses the documented 2025 CSocD youth-resolution cycle as an early-warning pattern\, not a fixed CSocD rule.\nOfficial process source: https://social.desa.un.org/csocd/65th-session
+URL:https://social.desa.un.org/csocd/65th-session
+END:VEVENT
+BEGIN:VEVENT
+UID:csocd-2027-01-24-vice-chair-process-exchange@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:[Planning] CSocD: Vice-Chair process exchange
+LOCATION:New York
+DESCRIPTION:On 24 January 2025\, UN Youth Delegates met the Austrian CSocD63 Vice-Chair to discuss the state of negotiations and routes for youth input. This is a documented precedent\, not a recurring formal deadline.\nStatus: recent cycle. The sequence separates general priority-setting before the zero draft from clause-specific recommendations after it arrives. January timing uses the documented 2025 CSocD youth-resolution cycle as an early-warning pattern\, not a fixed CSocD rule.\nOfficial process source: https://social.desa.un.org/csocd/65th-session
+URL:https://social.desa.un.org/csocd/65th-session
+END:VEVENT
+BEGIN:VEVENT
+UID:csocd-2027-02-10-chair-exchange@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:[Planning] CSocD: Chair exchange
+LOCATION:New York
+DESCRIPTION:On 10 February 2025\, UN Youth Delegates held a hybrid exchange with the CSocD63 Chair on earlier and more structured participation in the Commission’s work.\nStatus: recent cycle. The sequence separates general priority-setting before the zero draft from clause-specific recommendations after it arrives. January timing uses the documented 2025 CSocD youth-resolution cycle as an early-warning pattern\, not a fixed CSocD rule.\nOfficial process source: https://social.desa.un.org/csocd/65th-session
+URL:https://social.desa.un.org/csocd/65th-session
+END:VEVENT
+BEGIN:VEVENT
+UID:csocd-2027-02-01-csocd65@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270211
+SUMMARY:CSocD: CSocD65
+LOCATION:New York
+DESCRIPTION:Official session dates.\nStatus: official. The sequence separates general priority-setting before the zero draft from clause-specific recommendations after it arrives. January timing uses the documented 2025 CSocD youth-resolution cycle as an early-warning pattern\, not a fixed CSocD rule.\nOfficial process source: https://social.desa.un.org/csocd/65th-session
+URL:https://social.desa.un.org/csocd/65th-session
+END:VEVENT
+BEGIN:VEVENT
+UID:csw-2027-01-27-draft-circulation-and-internal-deadline@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270130
+SUMMARY:[Planning] CSW: Draft circulation and internal deadline
+LOCATION:New York
+DESCRIPTION:In the documented 2025 Austrian cycle\, the draft circulated on 27 January and comments were due on 29 January. The 2027 dates are not yet published.\nStatus: recent cycle. Three routes are shown separately: the formal Agreed Conclusions route through the responsible ministry or the country’s Permanent Mission in New York\; repeated recent-cycle youth-recommendation and UN Women coordination\; and the annual CSW Youth Forum. Only the first route provides access to the intergovernmental draft.\nOfficial process source: https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:csw-2027-01-04-youth-recommendations@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270118
+SUMMARY:[Planning] CSW: Youth recommendations
+LOCATION:New York
+DESCRIPTION:Youth recommendations were developed for both CSW69 and CSW70\, but through different consultation arrangements. This projects a check-for-call window rather than an official 2027 deadline.\nStatus: tentative. Three routes are shown separately: the formal Agreed Conclusions route through the responsible ministry or the country’s Permanent Mission in New York\; repeated recent-cycle youth-recommendation and UN Women coordination\; and the annual CSW Youth Forum. Only the first route provides access to the intergovernmental draft.\nOfficial process source: https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:csw-2027-01-18-un-women-youth-office-briefing@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270215
+SUMMARY:[Planning] CSW: UN Women / Youth Office briefing
+LOCATION:New York
+DESCRIPTION:Briefings occurred in both recent cycles: a general CSW69 youth briefing on 14 February 2025 and a CSW70 pre-zero-draft meeting with national UN Youth Delegates on 20 January 2026. No fixed 2027 date or format is established.\nStatus: tentative. Three routes are shown separately: the formal Agreed Conclusions route through the responsible ministry or the country’s Permanent Mission in New York\; repeated recent-cycle youth-recommendation and UN Women coordination\; and the annual CSW Youth Forum. Only the first route provides access to the intergovernmental draft.\nOfficial process source: https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:csw-2027-01-27-draft-markup-window@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270130
+SUMMARY:[Planning] CSW: Draft markup window
+LOCATION:New York
+DESCRIPTION:The 2025 Austrian record shows clause-specific UNYD wording prepared immediately after draft circulation. The equivalent 2027 window depends on receiving the current text.\nStatus: recent cycle. Three routes are shown separately: the formal Agreed Conclusions route through the responsible ministry or the country’s Permanent Mission in New York\; repeated recent-cycle youth-recommendation and UN Women coordination\; and the annual CSW Youth Forum. Only the first route provides access to the intergovernmental draft.\nOfficial process source: https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:csw-2027-01-28-national-submission-window@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270130
+SUMMARY:[Planning] CSW: National submission window
+LOCATION:New York
+DESCRIPTION:Austrian UNYD wording was transmitted on 28 January 2025 for consideration in the national position. The 2027 internal route and deadline remain unknown.\nStatus: recent cycle. Three routes are shown separately: the formal Agreed Conclusions route through the responsible ministry or the country’s Permanent Mission in New York\; repeated recent-cycle youth-recommendation and UN Women coordination\; and the annual CSW Youth Forum. Only the first route provides access to the intergovernmental draft.\nOfficial process source: https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:csw-2027-03-07-csw-youth-forum-date-tbc@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270315
+SUMMARY:CSW: CSW Youth Forum · date TBC
+LOCATION:New York
+DESCRIPTION:The CSW Youth Forum is recurring and was held at CSW68\, CSW69 and CSW70. Its 2027 date and participation conditions have not yet been published.\nStatus: tentative. Three routes are shown separately: the formal Agreed Conclusions route through the responsible ministry or the country’s Permanent Mission in New York\; repeated recent-cycle youth-recommendation and UN Women coordination\; and the annual CSW Youth Forum. Only the first route provides access to the intergovernmental draft.\nOfficial process source: https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:csw-2027-03-08-csw71@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270320
+SUMMARY:CSW: CSW71
+LOCATION:New York
+DESCRIPTION:Official provisional session dates.\nStatus: official. Three routes are shown separately: the formal Agreed Conclusions route through the responsible ministry or the country’s Permanent Mission in New York\; repeated recent-cycle youth-recommendation and UN Women coordination\; and the annual CSW Youth Forum. Only the first route provides access to the intergovernmental draft.\nOfficial process source: https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:ecosoc-yf-2027-02-22-side-event-concept-development@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270306
+SUMMARY:[Planning] Youth Forum: Side-event concept development
+LOCATION:New York
+DESCRIPTION:In the documented 2025 case\, concrete partner planning and a model concept note were exchanged on 26 February.\nStatus: recent cycle. The Forum does not normally negotiate one zero draft. Only the documented 2025 side-event and statement sequence is projected here\; general advice about choosing priorities or arranging meetings is not placed on the calendar.\nOfficial process source: https://ecosoc.un.org/en/events/2026/youth-forum
+URL:https://ecosoc.un.org/en/events/2026/youth-forum
+END:VEVENT
+BEGIN:VEVENT
+UID:ecosoc-yf-2027-03-01-desa-side-event-proposal-deadline@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270306
+SUMMARY:[Planning] Youth Forum: DESA side-event proposal deadline
+LOCATION:New York
+DESCRIPTION:The 2025 side-event proposal was submitted on 5 March\, matching that cycle’s official call deadline. The 2027 call has not yet been published.\nStatus: recent cycle. The Forum does not normally negotiate one zero draft. Only the documented 2025 side-event and statement sequence is projected here\; general advice about choosing priorities or arranging meetings is not placed on the calendar.\nOfficial process source: https://ecosoc.un.org/en/events/2026/youth-forum
+URL:https://ecosoc.un.org/en/events/2026/youth-forum
+END:VEVENT
+BEGIN:VEVENT
+UID:ecosoc-yf-2027-03-06-desa-review-and-approval@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270318
+SUMMARY:[Planning] Youth Forum: DESA review and approval
+LOCATION:New York
+DESCRIPTION:In the documented 2025 cycle\, DESA acknowledged the proposal on 12 March and approved it on 17 March. A submitted proposal should not be treated as accepted before this confirmation.\nStatus: recent cycle. The Forum does not normally negotiate one zero draft. Only the documented 2025 side-event and statement sequence is projected here\; general advice about choosing priorities or arranging meetings is not placed on the calendar.\nOfficial process source: https://ecosoc.un.org/en/events/2026/youth-forum
+URL:https://ecosoc.un.org/en/events/2026/youth-forum
+END:VEVENT
+BEGIN:VEVENT
+UID:ecosoc-yf-2027-03-08-national-delegation-briefing-and-statement-request@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270322
+SUMMARY:[Planning] Youth Forum: National delegation briefing and statement request
+LOCATION:New York
+DESCRIPTION:In 2025\, the Austrian concept note and speaking request reached the Austrian authorities and Permanent Mission in New York by 21 March. This is a dated precedent\, not a universal Forum deadline.\nStatus: recent cycle. The Forum does not normally negotiate one zero draft. Only the documented 2025 side-event and statement sequence is projected here\; general advice about choosing priorities or arranging meetings is not placed on the calendar.\nOfficial process source: https://ecosoc.un.org/en/events/2026/youth-forum
+URL:https://ecosoc.un.org/en/events/2026/youth-forum
+END:VEVENT
+BEGIN:VEVENT
+UID:ecosoc-yf-2027-04-13-youth-forum@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270416
+SUMMARY:Youth Forum: Youth Forum
+LOCATION:New York
+DESCRIPTION:Official provisional forum dates.\nStatus: official. The Forum does not normally negotiate one zero draft. Only the documented 2025 side-event and statement sequence is projected here\; general advice about choosing priorities or arranging meetings is not placed on the calendar.\nOfficial process source: https://ecosoc.un.org/en/events/2026/youth-forum
+URL:https://ecosoc.un.org/en/events/2026/youth-forum
+END:VEVENT
+BEGIN:VEVENT
+UID:hlpf-2027-05-03-sdg-summit-political-declaration-zero-draft@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270515
+SUMMARY:[Planning] HLPF: SDG Summit political-declaration zero draft
+LOCATION:New York
+DESCRIPTION:The 2023 Summit precedent placed the zero draft on 8 May. The 2027 co-facilitators have not yet published a timetable.\nStatus: recent cycle. Because 2027 is an SDG Summit year\, the ordinary July ministerial-declaration sequence is not projected. The political-declaration bars use the 2023 Summit cycle only as a precedent\; the 2027 co-facilitator timetable is still pending.\nOfficial process source: https://hlpf.un.org/
+URL:https://hlpf.un.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:hlpf-2027-06-01-political-declaration-consultations-and-revisions@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270724
+SUMMARY:[Planning] HLPF: Political-declaration consultations and revisions
+LOCATION:New York
+DESCRIPTION:The 2023 precedent used June consultations and a final draft in July. These dates are an early-warning range\, not a 2027 deadline.\nStatus: recent cycle. Because 2027 is an SDG Summit year\, the ordinary July ministerial-declaration sequence is not projected. The political-declaration bars use the 2023 Summit cycle only as a precedent\; the 2027 co-facilitator timetable is still pending.\nOfficial process source: https://hlpf.un.org/
+URL:https://hlpf.un.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:hlpf-2027-07-06-hlpf@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270716
+SUMMARY:HLPF: HLPF
+LOCATION:New York
+DESCRIPTION:Official provisional forum dates.\nStatus: official. Because 2027 is an SDG Summit year\, the ordinary July ministerial-declaration sequence is not projected. The political-declaration bars use the 2023 Summit cycle only as a precedent\; the 2027 co-facilitator timetable is still pending.\nOfficial process source: https://hlpf.un.org/
+URL:https://hlpf.un.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:hlpf-2027-09-20-sdg-summit@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270923
+SUMMARY:HLPF: SDG Summit
+LOCATION:New York
+DESCRIPTION:The Heads-of-State HLPF under the General Assembly will take place in September 2027. Exact dates are not yet published.\nStatus: tentative. Because 2027 is an SDG Summit year\, the ordinary July ministerial-declaration sequence is not projected. The political-declaration bars use the 2023 Summit cycle only as a precedent\; the 2027 co-facilitator timetable is still pending.\nOfficial process source: https://hlpf.un.org/
+URL:https://hlpf.un.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-05-03-annual-and-biennial-resolution-list@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270619
+SUMMARY:[Planning] UNGA: Annual and biennial resolution list
+LOCATION:New York
+DESCRIPTION:Tentative planning window for compiling the expected 2027 files with the previous document symbol\, recurrence\, last sponsors or facilitator and requested reports.\nStatus: tentative. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-06-21-national-delegation-s-expected-resolution-list@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Planning] UNGA: National delegation’s expected resolution list
+LOCATION:New York
+DESCRIPTION:Tentative window for obtaining the current Third Committee file list from the country’s Permanent Mission in New York. This is useful process information\, but there is no universal UN deadline for it.\nStatus: tentative. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-07-19-2027-unga-youth-resolution-facilitator@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270814
+SUMMARY:[Planning] UNGA: 2027 UNGA Youth Resolution facilitator
+LOCATION:New York
+DESCRIPTION:Tentative window for confirming which Member State and Permanent Mission will facilitate the expected biennial Third Committee resolution on policies and programmes involving youth. The facilitator changes between cycles.\nStatus: tentative. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-08-16-facilitator-pre-draft-meeting-window@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270828
+SUMMARY:[Planning] UNGA: Facilitator pre-draft meeting window
+LOCATION:New York
+DESCRIPTION:In 2025\, the meeting with the Portuguese facilitator took place on 25 August\, before the zero draft. At least one week was allowed for outreach.\nStatus: recent cycle. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-08-30-pre-zero-draft-language-consolidation@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270925
+SUMMARY:[Planning] UNGA: Pre-zero-draft language consolidation
+LOCATION:New York
+DESCRIPTION:The 2025 group used September to organize priorities and possible language before the new draft existed\; this was preparation\, not formal Member State input.\nStatus: recent cycle. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-09-14-unga-opening-and-high-level-week@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270928
+SUMMARY:UNGA: UNGA opening and High-level Week
+LOCATION:New York
+DESCRIPTION:Opening is fixed by rule\; High-level Week dates follow the official programme.\nStatus: official. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-10-01-third-committee-opening-window@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271009
+SUMMARY:UNGA: Third Committee opening window
+LOCATION:New York
+DESCRIPTION:Tentative 2027 window based on the recurring early-October pattern\; the official programme has not yet been published.\nStatus: tentative. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-10-03-unga-youth-resolution-zero-draft-and-national-deadline@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271009
+SUMMARY:[Planning] UNGA: UNGA Youth Resolution zero draft and national deadline
+LOCATION:New York
+DESCRIPTION:In 2025\, the zero draft of the Third Committee resolution on policies and programmes involving youth was released on 3 October and Member State comments were due on 8 October. The national internal deadline may fall earlier.\nStatus: recent cycle. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-10-04-national-wording-submission-window@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271009
+SUMMARY:[Planning] UNGA: National wording-submission window
+LOCATION:New York
+DESCRIPTION:In 2025\, Austrian UN Youth Delegates used this short period to send clause-specific additions\, deletions and amendments to the officials coordinating Austria’s position on the live zero draft.\nStatus: recent cycle. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-10-10-unga-youth-resolution-readings-and-revisions@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271031
+SUMMARY:[Planning] UNGA: UNGA Youth Resolution readings and revisions
+LOCATION:New York
+DESCRIPTION:The verified 2025 sequence ran from the first reading on 10 October through revised texts and the 28–30 October silence procedure.\nStatus: recent cycle. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-11-08-committee-action-window@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271127
+SUMMARY:UNGA: Committee action window
+LOCATION:New York
+DESCRIPTION:Tentative window based on the recurring Third Committee sequence\; official action dates are set in the programme of work.\nStatus: tentative. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:unga-2027-12-01-plenary-adoption-window@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20271201
+DTEND;VALUE=DATE:20271223
+SUMMARY:[Planning] UNGA: Plenary adoption window
+LOCATION:New York
+DESCRIPTION:Tentative window for plenary action on Third Committee reports\; the official plenary schedule is not yet published.\nStatus: tentative. General Third Committee preparation is separated from the odd-year UNGA Youth Resolution sequence. The August–October dates use the verified 2025 cycle as a precedent\, not as confirmed 2027 deadlines.\nOfficial process source: https://www.un.org/en/ga/about/ropga/sessions.shtml
+URL:https://www.un.org/en/ga/about/ropga/sessions.shtml
+END:VEVENT
+BEGIN:VEVENT
+UID:hrc-2027-02-24-hrc64@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270403
+SUMMARY:HRC: HRC64
+LOCATION:Geneva
+DESCRIPTION:Official session dates: 24 February–2 April 2027.\nStatus: official. There is no single annual HRC zero draft. Until a session-specific report\, panel\, resolution consultation or submission deadline is published\, the calendar shows only the three official regular sessions\; recurring youth and child-rights entry points remain described below.\nOfficial process source: https://hrcportal.ohchr.org/hrc-sessions
+URL:https://hrcportal.ohchr.org/hrc-sessions
+END:VEVENT
+BEGIN:VEVENT
+UID:hrc-2027-06-14-hrc65@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270710
+SUMMARY:HRC: HRC65
+LOCATION:Geneva
+DESCRIPTION:Official session dates: 14 June–9 July 2027.\nStatus: official. There is no single annual HRC zero draft. Until a session-specific report\, panel\, resolution consultation or submission deadline is published\, the calendar shows only the three official regular sessions\; recurring youth and child-rights entry points remain described below.\nOfficial process source: https://hrcportal.ohchr.org/hrc-sessions
+URL:https://hrcportal.ohchr.org/hrc-sessions
+END:VEVENT
+BEGIN:VEVENT
+UID:hrc-2027-09-06-hrc66@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20271009
+SUMMARY:HRC: HRC66
+LOCATION:Geneva
+DESCRIPTION:Official session dates: 6 September–8 October 2027\; the biennial panel on youth and human rights is programmed for this session.\nStatus: official. There is no single annual HRC zero draft. Until a session-specific report\, panel\, resolution consultation or submission deadline is published\, the calendar shows only the three official regular sessions\; recurring youth and child-rights entry points remain described below.\nOfficial process source: https://hrcportal.ohchr.org/hrc-sessions
+URL:https://hrcportal.ohchr.org/hrc-sessions
+END:VEVENT
+BEGIN:VEVENT
+UID:cnd-2027-01-25-national-delegation-check-on-intended-resolution-files@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:[Planning] CND: National delegation check on intended resolution files
+LOCATION:Vienna
+DESCRIPTION:Planning point exactly three weeks before the projected tabling deadline. Ask your country’s Permanent Mission in Vienna which national\, EU or other regional drafts it expects to sponsor\, co-sponsor or follow\, who owns each file and whether early sponsor text is available.\nStatus: tentative. The four-week tabling rule is official\, but the 15 February 2027 date is derived from the officially published provisional CND70 start date and must be checked against the Bureau-endorsed deadline. The 25 January Mission check is a planning point exactly three weeks earlier\, not a UN deadline.\nOfficial process source: https://www.unodc.org/unodc/en/commissions/CND/index.html
+URL:https://www.unodc.org/unodc/en/commissions/CND/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cnd-2027-02-15-expected-cnd70-draft-resolution-deadline@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:[Planning] CND: Expected CND70 draft-resolution deadline
+LOCATION:Vienna
+DESCRIPTION:Commission decision 55/1 sets the deadline in principle four weeks before the session. Applying that rule to the provisional 15 March 2027 opening gives 15 February\; the Bureau-endorsed CND70 deadline must still be confirmed.\nStatus: tentative. The four-week tabling rule is official\, but the 15 February 2027 date is derived from the officially published provisional CND70 start date and must be checked against the Bureau-endorsed deadline. The 25 January Mission check is a planning point exactly three weeks earlier\, not a UN deadline.\nOfficial process source: https://www.unodc.org/unodc/en/commissions/CND/index.html
+URL:https://www.unodc.org/unodc/en/commissions/CND/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cnd-2027-02-22-sponsor-circulation-and-informal-consultations@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270313
+SUMMARY:[Planning] CND: Sponsor circulation and informal consultations
+LOCATION:Vienna
+DESCRIPTION:Once the L-documents and sponsors are known\, follow the sponsor-led informals and revised texts. The exact sequence depends on the drafts tabled\; negotiations can start before formal introduction when the Bureau agrees.\nStatus: tentative. The four-week tabling rule is official\, but the 15 February 2027 date is derived from the officially published provisional CND70 start date and must be checked against the Bureau-endorsed deadline. The 25 January Mission check is a planning point exactly three weeks earlier\, not a UN deadline.\nOfficial process source: https://www.unodc.org/unodc/en/commissions/CND/index.html
+URL:https://www.unodc.org/unodc/en/commissions/CND/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cnd-2027-03-15-resolution-68-6-panel-recommendations@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:[Planning] CND: Resolution 68/6 panel recommendations
+LOCATION:Vienna
+DESCRIPTION:CND70 is mandated to discuss the independent expert panel’s recommendations. Resolution 68/6 also requires stakeholder consultations that expressly include youth groups\; their dates are still pending.\nStatus: official provisional. The four-week tabling rule is official\, but the 15 February 2027 date is derived from the officially published provisional CND70 start date and must be checked against the Bureau-endorsed deadline. The 25 January Mission check is a planning point exactly three weeks earlier\, not a UN deadline.\nOfficial process source: https://www.unodc.org/unodc/en/commissions/CND/index.html
+URL:https://www.unodc.org/unodc/en/commissions/CND/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cnd-2027-03-15-cnd70@unyd-process-guide
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:CND: CND70
+LOCATION:Vienna
+DESCRIPTION:Official provisional session dates.\nStatus: official provisional. The four-week tabling rule is official\, but the 15 February 2027 date is derived from the officially published provisional CND70 start date and must be checked against the Bureau-endorsed deadline. The 25 January Mission check is a planning point exactly three weeks earlier\, not a UN deadline.\nOfficial process source: https://www.unodc.org/unodc/en/commissions/CND/index.html
+URL:https://www.unodc.org/unodc/en/commissions/CND/index.html
+END:VEVENT
+END:VCALENDAR

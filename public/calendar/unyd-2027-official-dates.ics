@@ -1,0 +1,108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UNYD Process Guide//2027 Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UNYD processes 2027
+X-WR-CALDESC:Official exact and official provisional dates for the core UNYD process calendar. Re-check provisional dates before travel.
+BEGIN:VEVENT
+UID:csocd65-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270211
+SUMMARY:CSocD65 — Commission for Social Development
+LOCATION:United Nations Headquarters\, New York
+DESCRIPTION:Official date. Source: https://social.desa.un.org/csocd/65th-session
+URL:https://social.desa.un.org/csocd/65th-session
+END:VEVENT
+BEGIN:VEVENT
+UID:csw71-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270320
+SUMMARY:CSW71 — Commission on the Status of Women
+LOCATION:United Nations Headquarters\, New York
+DESCRIPTION:Official provisional date. Re-check before booking. Source: https://documents.un.org/api/symbol/access?l=en&s=E%2F2025%2F47&t=pdf
+URL:https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women
+END:VEVENT
+BEGIN:VEVENT
+UID:cnd70-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270320
+SUMMARY:CND70 — Commission on Narcotic Drugs
+LOCATION:Vienna International Centre\, Vienna
+DESCRIPTION:Official provisional date marked to be confirmed. Re-check before booking. Source: https://documents.un.org/api/symbol/access?l=en&s=E%2F2025%2F47&t=pdf
+URL:https://www.unodc.org/unodc/en/commissions/CND/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ecosoc-youth-forum-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270416
+SUMMARY:ECOSOC Youth Forum 2027
+LOCATION:United Nations Headquarters\, New York
+DESCRIPTION:Official provisional date marked to be confirmed. Re-check before booking. Source: https://documents.un.org/api/symbol/access?l=en&s=E%2F2025%2F47&t=pdf
+URL:https://ecosoc.un.org/en/what-we-do/promoting-sustainable-development/forums/youth-forum
+END:VEVENT
+BEGIN:VEVENT
+UID:hlpf-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270716
+SUMMARY:HLPF 2027 — High-Level Political Forum
+LOCATION:United Nations Headquarters\, New York
+DESCRIPTION:Official provisional dates. Ministerial segment 13–15 July. Re-check before booking. Source: https://documents.un.org/api/symbol/access?l=en&s=E%2F2025%2F47&t=pdf
+URL:https://hlpf.un.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:hrc64-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270403
+SUMMARY:HRC64 — Human Rights Council
+LOCATION:Geneva
+DESCRIPTION:Official session dates. Includes the annual full-day meeting on the rights of the child. Source: https://hrcportal.ohchr.org/three-year-programme-work
+URL:https://hrcportal.ohchr.org/three-year-programme-work
+END:VEVENT
+BEGIN:VEVENT
+UID:hrc65-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270710
+SUMMARY:HRC65 — Human Rights Council
+LOCATION:Geneva
+DESCRIPTION:Official session dates. Source: https://hrcportal.ohchr.org/three-year-programme-work
+URL:https://hrcportal.ohchr.org/three-year-programme-work
+END:VEVENT
+BEGIN:VEVENT
+UID:hrc66-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20271009
+SUMMARY:HRC66 — Human Rights Council
+LOCATION:Geneva
+DESCRIPTION:Official session dates. Includes the biennial panel discussion on youth and human rights. Source: https://hrcportal.ohchr.org/three-year-programme-work
+URL:https://hrcportal.ohchr.org/three-year-programme-work
+END:VEVENT
+BEGIN:VEVENT
+UID:unga82-opening-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:UNGA82 opens
+LOCATION:United Nations Headquarters\, New York
+DESCRIPTION:Official calculated opening date. General debate opens 21 September 2027. Source: https://digitallibrary.un.org/record/4102577
+URL:https://www.un.org/en/ga/
+END:VEVENT
+BEGIN:VEVENT
+UID:unga82-general-debate-2027@unyd-process-guide
+DTSTAMP:20260827T120000Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:UNGA82 general debate opens
+LOCATION:United Nations Headquarters\, New York
+DESCRIPTION:Official calculated opening date for the general debate. Source: https://digitallibrary.un.org/record/4102577
+URL:https://www.un.org/en/ga/
+END:VEVENT
+END:VCALENDAR

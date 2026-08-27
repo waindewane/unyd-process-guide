@@ -1,0 +1,33 @@
+{
+  "name": "unyd-process-guide",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "generate:ai-export": "node --experimental-strip-types scripts/generate-ai-export.mjs",
+    "generate:planning-calendar": "node --experimental-strip-types scripts/generate-planning-calendar.mjs",
+    "generate:exports": "pnpm generate:ai-export && pnpm generate:planning-calendar",
+    "predev": "pnpm generate:exports",
+    "dev": "next dev",
+    "prebuild": "pnpm generate:exports",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern out"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "typescript": "5.9.3"
+  },
+  "type": "module"
+}
