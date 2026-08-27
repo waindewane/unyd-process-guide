@@ -6,6 +6,9 @@ import { operationalNotes, type PlanningMilestone } from './operational-notes';
 import { siteMeta } from './site-meta';
 
 type Tab = 'overview' | 'negotiations' | 'timeline' | 'examples' | 'contacts';
+type EntryState = 'checking' | 'prompt' | 'accepted' | 'denied';
+
+const entrySessionKey = 'unyd-process-guide-entry-v1';
 
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const planningZoomLevels = [1, 1.5, 2, 3, 4, 5, 6, 7];
@@ -396,8 +399,10 @@ function ProcessStructure({ process }: { process: ProcessGuide }) {
 }
 
 export default function Home() {
+  const [entryState, setEntryState] = useState<EntryState>('checking');
   const [activeId, setActiveId] = useState('csocd');
   const [activeTab, setActiveTab] = useState<Tab>('overview');
+  const entryYesRef = useRef<HTMLButtonElement>(null);
   const [annualTooltip, setAnnualTooltip] = useState<{
     title: string;
     date: string;
@@ -410,6 +415,39 @@ export default function Home() {
 
   const activeProcess = useMemo(() => processById[activeId] ?? processes[0], [activeId]);
   const addUrl = googleCalendarUrl(activeProcess);
+
+  useEffect(() => {
+    const storageCheck = window.setTimeout(() => {
+      try {
+        setEntryState(window.sessionStorage.getItem(entrySessionKey) === 'accepted' ? 'accepted' : 'prompt');
+      } catch {
+        setEntryState('prompt');
+      }
+    }, 0);
+    return () => window.clearTimeout(storageCheck);
+  }, []);
+
+  useEffect(() => {
+    if (entryState === 'prompt') entryYesRef.current?.focus();
+  }, [entryState]);
+
+  useEffect(() => {
+    if (entryState === 'accepted') return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [entryState]);
+
+  function acceptEntry() {
+    try {
+      window.sessionStorage.setItem(entrySessionKey, 'accepted');
+    } catch {
+      // The current page can still be opened if browser storage is unavailable.
+    }
+    setEntryState('accepted');
+  }
 
   function selectProcess(id: string, scroll = true) {
     setAnnualTooltip(null);
@@ -441,7 +479,32 @@ export default function Home() {
   }
 
   return (
-    <main>
+    <>
+      {entryState !== 'accepted' && (
+        <div
+          className={`entry-gate state-${entryState}`}
+          role={entryState === 'prompt' ? 'dialog' : 'status'}
+          aria-modal={entryState === 'prompt' ? 'true' : undefined}
+          aria-labelledby={entryState === 'prompt' ? 'entry-question' : entryState === 'denied' ? 'entry-denied' : undefined}
+          aria-busy={entryState === 'checking'}
+        >
+          {entryState === 'prompt' && (
+            <div className="entry-gate-panel">
+              <h1 id="entry-question">Are you currently a UN Youth Delegate?</h1>
+              <div className="entry-gate-actions">
+                <button ref={entryYesRef} type="button" className="entry-yes" onClick={acceptEntry}>Yes, enter</button>
+                <button type="button" className="entry-no" onClick={() => setEntryState('denied')}>No</button>
+              </div>
+            </div>
+          )}
+          {entryState === 'denied' && (
+            <div className="entry-gate-panel">
+              <h1 id="entry-denied">This site is an internal resource only for current UN Youth Delegates.</h1>
+            </div>
+          )}
+        </div>
+      )}
+      <main inert={entryState !== 'accepted'} aria-hidden={entryState !== 'accepted'}>
       <header className="site-header">
         <a className="wordmark" href="#top">UNYD process guide</a>
         <nav aria-label="Page navigation"><a href="#calendar">Calendar</a><a href="#preparation">Preparation</a><a href="#process-library">Processes</a><a href="#ai-download">Text export</a></nav>
@@ -539,6 +602,7 @@ export default function Home() {
       </section>
 
       <footer><span>UN Youth Delegate process guide · updated {siteMeta.lastVerified}</span><a href="https://social.desa.un.org/issues/youth/un-youth-delegate-programme" target="_blank" rel="noreferrer">UN Youth Delegate Programme ↗</a></footer>
-    </main>
+      </main>
+    </>
   );
 }
