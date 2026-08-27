@@ -3,14 +3,14 @@ title: "UNYD process guide — website text export"
 format: "Markdown"
 format_version: 1
 content_last_verified: "2026-08-28"
-export_generated_at: "2026-08-27T23:22:39.164Z"
+export_generated_at: "2026-08-27T23:35:26.056Z"
 language: "English"
 audience: "Current and future national UN Youth Delegates and people supporting their preparation"
 ---
 
 # About this file
 
-This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-27T23:22:39.164Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
+This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-27T23:35:26.056Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
 
 The website's purpose is: Dates, session structures, negotiation timelines, examples and official links for recurring UN processes.
 
@@ -751,7 +751,7 @@ The main UN policymaking body on international drug control. A small, changing p
 
 ### Recurring entry points
 
-- **[Annual UNODC Youth Forum](https://www.unodc.org/res/prevention/youth-initiative/youth-forum-2025_html/Youth_Forum_2025_Report_Final.pdf) — Nomination can begin in the previous summer · event around CND:** UNODC organizes the Forum with ongoing support from the Government of the Russian Federation. It is not a UN Youth Delegate forum: Member States nominate participants through their Permanent Missions, UNODC selects them and they participate in their personal capacity. Some UN Youth Delegates have participated, but the official reports do not consistently identify UNYD status. The Forum produces a collective youth statement delivered to CND. _Status: Annual adjacent participation route; 2027 nomination pending._
+- **[Annual UNODC Youth Forum](https://www.unodc.org/res/prevention/youth-initiative/youth-forum-2025_html/Youth_Forum_2025_Report_Final.pdf) — Nomination can begin in the previous summer · event around CND:** The UNODC forum is seemingly organised and largely financed by Russia. UNYD participation is very rare. _Status: Annual adjacent participation route; 2027 nomination pending._
 - **Annual draft-resolution package — Deadline normally four weeks before the session:** This is not a fixed list of six or seven recurring resolutions. The official reports record four CND policy resolutions plus a high-level declaration in 2024, six resolutions in 2025, and four CND resolutions plus one draft General Assembly resolution in 2026. Titles, sponsors and votes changed in every package. Sources: [CND67 report (2024)](https://documents.un.org/api/symbol/access?l=en&s=E%2F2024%2F28&t=pdf); [CND68 report (2025)](https://documents.un.org/api/symbol/access?l=en&s=E%2F2025%2F28&t=pdf); [CND69 report (2026)](https://documents.un.org/api/symbol/access?l=en&s=E%2F2026%2F28&t=pdf). _Status: Annual mechanism; 2027 draft list not yet published._
 - **[Recurring policy lines, not recurring titles](https://rddb.unodc.org/rddb/) — Multi-year lineages · no fixed annual or biennial cycle:** Alternative development formed a clear 2024–2026 chain. Public-health resolutions moved from recovery, medicines and overdose in 2024 to prevention and stimulant treatment in 2025 and an integrated public-health resolution in 2026. Synthetic-drug and precursor files also recur, but their scope and sponsors change. _Status: Pattern verified across the 2024–2026 official reports._
 - **[Independent expert-panel recommendations](https://www.unodc.org/documents/commissions/CND/Drug_Resolutions/2020-2029/2025/Res_68_6.pdf) — Consultations before CND70 · discussion at CND70:** Resolution 68/6 requires the 19-member panel to consult States and stakeholders, expressly including youth groups, through a virtual platform. CND69 completed the panel’s composition; CND70 is mandated to discuss its recommendations. Consultation dates and the route for youth input still have to be published. _Status: 2027 discussion mandated; consultation timetable pending._
@@ -806,7 +806,7 @@ The four-week tabling rule is official, but the 15 February 2027 date is derived
 
 ## Practical timeline
 
-- **Previous summer onward · when invited — [UNODC Youth Forum nomination](https://www.unodc.org/res/prevention/youth-initiative/youth-forum-2025_html/Youth_Forum_2025_Report_Final.pdf):** Ask your country’s Permanent Mission in Vienna whether the nomination invitation has arrived. The Forum is organized by UNODC with ongoing support from the Government of the Russian Federation; participants are selected by UNODC and attend in their personal capacity. Its collective youth statement is delivered to CND, but this is not the CND resolution-negotiation route.
+- **Previous summer onward · when invited — [UNODC Youth Forum nomination](https://www.unodc.org/res/prevention/youth-initiative/youth-forum-2025_html/Youth_Forum_2025_Report_Final.pdf):** The UNODC forum is seemingly organised and largely financed by Russia. UNYD participation is very rare. Ask your country’s Permanent Mission in Vienna whether the nomination invitation has arrived; selected participants attend in their personal capacity, and the resulting collective youth statement is delivered to CND rather than negotiated as a CND resolution.
 - **When a panel consultation is announced — [Resolution 68/6 stakeholder consultation](https://www.unodc.org/documents/commissions/CND/Drug_Resolutions/2020-2029/2025/Res_68_6.pdf):** The panel must consult stakeholders through a virtual platform and expressly include youth groups. Check the official CND channels for the call, eligibility, questions and submission date; no 2027 timetable is published yet.
 - **25 January 2027 · planning date — Ask your country’s Permanent Mission in Vienna which resolution files it expects:** Name the projected deadline and ask about intended national, EU or other regional drafts, the lead sponsor, the person or team responsible for each file and the route for receiving early text. This planning point is not a UN deadline.
 - **Around 15 February 2027 · to confirm — [CND70 draft-resolution deadline](https://www.unodc.org/documents/commissions/CND_CCPCJ_joint/Delegates_Handbook/Delegates_Handbook_2019_update_sept_19.pdf):** Decision 55/1 sets the deadline in principle four weeks before the session. The date shown applies that rule to the provisional 15 March opening and must be replaced by the Bureau-endorsed deadline when published.

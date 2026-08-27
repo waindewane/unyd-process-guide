@@ -447,7 +447,7 @@ export const operationalNotes: Record<string, OperationalNote> = {
         {
           title: 'Annual UNODC Youth Forum',
           timing: 'Nomination can begin in the previous summer · event around CND',
-          detail: 'UNODC organizes the Forum with ongoing support from the Government of the Russian Federation. It is not a UN Youth Delegate forum: Member States nominate participants through their Permanent Missions, UNODC selects them and they participate in their personal capacity. Some UN Youth Delegates have participated, but the official reports do not consistently identify UNYD status. The Forum produces a collective youth statement delivered to CND.',
+          detail: 'The UNODC forum is seemingly organised and largely financed by Russia. UNYD participation is very rare.',
           status: 'Annual adjacent participation route; 2027 nomination pending',
           href: 'https://www.unodc.org/res/prevention/youth-initiative/youth-forum-2025_html/Youth_Forum_2025_Report_Final.pdf',
         },
