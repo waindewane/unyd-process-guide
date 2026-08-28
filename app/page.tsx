@@ -259,16 +259,18 @@ function ProcessContent({ process, tab }: { process: ProcessGuide; tab: Tab }) {
               <h4>Recurring entry points</h4>
               {overview.strategicEntryPoints.map((entry) => (
                 <article key={entry.title}>
-                  <div>
+                  <div className="entry-heading">
                     <strong>{entry.href ? <a href={entry.href} target="_blank" rel="noreferrer">{entry.title}</a> : entry.title}</strong>
                     <span>{entry.timing}</span>
                   </div>
-                  <p>{entry.detail}</p>
-                  {entry.links && (
-                    <p className="entry-links">
-                      {entry.links.map((link) => <a key={link.href} href={link.href} target="_blank" rel="noreferrer">{link.label}</a>)}
-                    </p>
-                  )}
+                  <div className="entry-copy">
+                    <p>{entry.detail}</p>
+                    {entry.links && (
+                      <div className="entry-links">
+                        {entry.links.map((link) => <a key={link.href} href={link.href} target="_blank" rel="noreferrer">{link.label}</a>)}
+                      </div>
+                    )}
+                  </div>
                   {entry.status && <small>{entry.status}</small>}
                 </article>
               ))}

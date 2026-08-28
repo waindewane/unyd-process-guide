@@ -271,7 +271,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .strategic-entry-points { margin-top: 18px; border-top: 1px solid var(--line); }
 .strategic-entry-points h4 { margin: 18px 0 4px; font-size: 14px; }
 .strategic-entry-points article { display: grid; grid-template-columns: minmax(190px, .75fr) minmax(0, 1.65fr) auto; gap: 20px; align-items: start; padding: 14px 0; border-bottom: 1px solid var(--soft-line); }
-.strategic-entry-points article > div { display: grid; gap: 3px; }
+.strategic-entry-points .entry-heading { display: grid; gap: 3px; }
+.strategic-entry-points .entry-copy { min-width: 0; }
 .strategic-entry-points article strong { font-size: 13px; line-height: 1.35; }
 .strategic-entry-points article span, .strategic-entry-points article small { color: var(--muted); font-size: 10px; line-height: 1.35; }
 .strategic-entry-points article p { margin: 0; color: var(--ink); font-size: 13px; line-height: 1.45; }
