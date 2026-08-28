@@ -173,9 +173,9 @@ export const processes: ProcessGuide[] = [
       {
         kind: 'Statement',
         title: 'Austrian UN Youth Delegate statement in the official CSW69 youth dialogue',
-        detail: 'Jana Berchtold delivered Austria’s three-minute statement in the high-level interactive dialogue with youth representatives, using a formal speaking opportunity within the Commission’s programme.',
+        detail: 'Jana Berchtold delivered Austria’s three-minute statement in the high-level Beijing+30 interactive dialogue with youth representatives, calling for stronger protection of the rights of girls and women during war, conflict and crisis.',
         state: 'verified',
-        href: 'https://www.unwomen.org/sites/default/files/2024-12/csw69_proposed_organisation_of_work_5_december_2024.pdf',
+        href: 'https://www.instagram.com/p/DHVqYgUqQd5/',
       },
       {
         kind: 'Side event',

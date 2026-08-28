@@ -3,14 +3,14 @@ title: "UNYD process guide — website text export"
 format: "Markdown"
 format_version: 1
 content_last_verified: "2026-08-28"
-export_generated_at: "2026-08-28T08:47:05.489Z"
+export_generated_at: "2026-08-28T09:08:19.518Z"
 language: "English"
 audience: "Current and future national UN Youth Delegates and people supporting their preparation"
 ---
 
 # About this file
 
-This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T08:47:05.489Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
+This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T09:08:19.518Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
 
 The website's purpose is: Dates, session structures, negotiation timelines, examples and official links for recurring UN processes.
 
@@ -249,8 +249,8 @@ Three routes are shown separately: the formal Agreed Conclusions route through t
 
 ## Examples
 
-- **Statement — [Austrian UN Youth Delegate statement in the official CSW69 youth dialogue](https://www.unwomen.org/sites/default/files/2024-12/csw69_proposed_organisation_of_work_5_december_2024.pdf)**
-  - Jana Berchtold delivered Austria’s three-minute statement in the high-level interactive dialogue with youth representatives, using a formal speaking opportunity within the Commission’s programme.
+- **Statement — [Austrian UN Youth Delegate statement in the official CSW69 youth dialogue](https://www.instagram.com/p/DHVqYgUqQd5/)**
+  - Jana Berchtold delivered Austria’s three-minute statement in the high-level Beijing+30 interactive dialogue with youth representatives, calling for stronger protection of the rights of girls and women during war, conflict and crisis.
 - **Side event — Moderating a high-level CSW69 side-event discussion**
   - Austrian UN Youth Delegate Jana Berchtold moderated the high-level discussion in “Children and the Promise of Gender Equality”, involving a minister, a parliamentarian and an expert from three countries.
 - **Special format — [Co-facilitating the UNECE roundtable at the CSW69 Global Youth Dialogue](https://www.unwomen.org/en/csw/previous-sessions)**
