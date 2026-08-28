@@ -454,9 +454,10 @@ export const processes: ProcessGuide[] = [
       },
       {
         kind: 'Statement',
-        title: 'Third Committee statement and interactive-dialogue intervention',
-        detail: 'Two distinct official speaking formats showing why “a UNGA statement” is not one uniform activity.',
+        title: 'UN Youth Delegate statements in the Third Committee general discussion',
+        detail: 'A video compilation showing several UN Youth Delegates delivering statements during the Third Committee’s general discussion.',
         state: 'verified',
+        href: 'https://www.instagram.com/reel/DBgSKojtEW6/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==',
       },
       {
         kind: 'Initiative',

@@ -3,14 +3,14 @@ title: "UNYD process guide — website text export"
 format: "Markdown"
 format_version: 1
 content_last_verified: "2026-08-28"
-export_generated_at: "2026-08-28T08:31:05.100Z"
+export_generated_at: "2026-08-28T08:47:05.489Z"
 language: "English"
 audience: "Current and future national UN Youth Delegates and people supporting their preparation"
 ---
 
 # About this file
 
-This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T08:31:05.100Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
+This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T08:47:05.489Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
 
 The website's purpose is: Dates, session structures, negotiation timelines, examples and official links for recurring UN processes.
 
@@ -590,8 +590,8 @@ General Third Committee preparation is separated from the odd-year UNGA Youth Re
 
 - **Policy / negotiation — [UNGA80 Youth Resolution negotiation sequence](https://documents.un.org/api/symbol/access?l=en&s=A%2FRES%2F80%2F180&t=pdf)**
   - A documented sequence from pre-draft coordination through zero draft, national-delegation comments, readings, silence procedure and adoption.
-- **Statement — Third Committee statement and interactive-dialogue intervention**
-  - Two distinct official speaking formats showing why “a UNGA statement” is not one uniform activity.
+- **Statement — [UN Youth Delegate statements in the Third Committee general discussion](https://www.instagram.com/reel/DBgSKojtEW6/?utm_source=ig_web_copy_link&igsi=MzRlODBiNWFlZA==)**
+  - A video compilation showing several UN Youth Delegates delivering statements during the Third Committee’s general discussion.
 - **Initiative — [Joint youth peace statement transmitted as S/2024/799](https://docs.un.org/S/2024/799)**
   - A cross-country youth-delegate output that moved through a Member State and became a Security Council document.
 
