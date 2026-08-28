@@ -306,6 +306,8 @@ export const processes: ProcessGuide[] = [
     ],
     contacts: [
       { label: 'UN DESA · IISB', role: 'Forum preparation and official side-event proposals', email: 'desa-iisb@un.org' },
+      { label: 'Yugratna Srivastava', role: 'Major Group for Children and Youth (MGCY) · ECOSOC Youth Forum and Youth Blast coordination', email: 'yugratna.srivastava@unmgcy.org' },
+      { label: 'Sameh Kamel', role: 'Major Group for Children and Youth (MGCY) · ECOSOC Youth Forum and Youth Blast coordination', email: 'sameh.kamel@unmgcy.org' },
       { label: 'Markus Wainde Wane', role: 'Former Austrian UN Youth Delegate · Forum participation, side-event process and cross-country UNYD coordination', email: 'waindewane@gmail.com' },
     ],
     sources: [

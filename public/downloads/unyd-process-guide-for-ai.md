@@ -3,14 +3,14 @@ title: "UNYD process guide — website text export"
 format: "Markdown"
 format_version: 1
 content_last_verified: "2026-08-28"
-export_generated_at: "2026-08-28T09:08:19.518Z"
+export_generated_at: "2026-08-28T09:16:29.416Z"
 language: "English"
 audience: "Current and future national UN Youth Delegates and people supporting their preparation"
 ---
 
 # About this file
 
-This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T09:08:19.518Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
+This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T09:16:29.416Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
 
 The website's purpose is: Dates, session structures, negotiation timelines, examples and official links for recurring UN processes.
 
@@ -372,6 +372,8 @@ The Forum does not normally negotiate one zero draft. Only the documented 2025 s
 ## Process contacts
 
 - **UN DESA · IISB:** Forum preparation and official side-event proposals — [desa-iisb@un.org](mailto:desa-iisb@un.org)
+- **Yugratna Srivastava:** Major Group for Children and Youth (MGCY) · ECOSOC Youth Forum and Youth Blast coordination — [yugratna.srivastava@unmgcy.org](mailto:yugratna.srivastava@unmgcy.org)
+- **Sameh Kamel:** Major Group for Children and Youth (MGCY) · ECOSOC Youth Forum and Youth Blast coordination — [sameh.kamel@unmgcy.org](mailto:sameh.kamel@unmgcy.org)
 - **Markus Wainde Wane:** Former Austrian UN Youth Delegate · Forum participation, side-event process and cross-country UNYD coordination — [waindewane@gmail.com](mailto:waindewane@gmail.com)
 
 ## Official and primary sources
