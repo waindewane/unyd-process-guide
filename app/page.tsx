@@ -330,7 +330,7 @@ function ProcessContent({ process, tab }: { process: ProcessGuide; tab: Tab }) {
   }
 
   if (tab === 'examples') {
-    const groups = ['Side event', 'Statement', 'Policy / negotiation', 'Initiative', 'Meeting'] as const;
+    const groups = ['Special format', 'Side event', 'Statement', 'Policy / negotiation', 'Initiative', 'Meeting'] as const;
     const publicExamples = process.examples.filter((example) => example.state === 'verified');
     return (
       <div className="examples-list">

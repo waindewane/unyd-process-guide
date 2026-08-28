@@ -3,14 +3,14 @@ title: "UNYD process guide — website text export"
 format: "Markdown"
 format_version: 1
 content_last_verified: "2026-08-28"
-export_generated_at: "2026-08-27T23:35:26.056Z"
+export_generated_at: "2026-08-28T00:47:41.364Z"
 language: "English"
 audience: "Current and future national UN Youth Delegates and people supporting their preparation"
 ---
 
 # About this file
 
-This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-27T23:35:26.056Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
+This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T00:47:41.364Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
 
 The website's purpose is: Dates, session structures, negotiation timelines, examples and official links for recurring UN processes.
 
@@ -249,8 +249,12 @@ Three routes are shown separately: the formal Agreed Conclusions route through t
 
 ## Examples
 
-- **Policy / negotiation — [Austrian UNYD mark-up of the CSW69 Political Declaration draft](https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women/csw69-2025/session-outcomes)**
-  - The draft was shared with the Austrian UN Youth Delegates through Austria’s official delegation process on 27 January 2025, with comments due on 29 January. They prepared clause-specific wording for officials coordinating Austria’s position to consider.
+- **Statement — [Austrian UN Youth Delegate statement in the official CSW69 youth dialogue](https://www.unwomen.org/sites/default/files/2024-12/csw69_proposed_organisation_of_work_5_december_2024.pdf)**
+  - Jana Berchtold delivered Austria’s three-minute statement in the high-level interactive dialogue with youth representatives, using a formal speaking opportunity within the Commission’s programme.
+- **Side event — Moderating a high-level CSW69 side-event discussion**
+  - Austrian UN Youth Delegate Jana Berchtold moderated the high-level discussion in “Children and the Promise of Gender Equality”, involving a minister, a parliamentarian and an expert from three countries.
+- **Special format — [Co-facilitating the UNECE roundtable at the CSW69 Global Youth Dialogue](https://www.unwomen.org/en/csw/previous-sessions)**
+  - Jana Berchtold and Afra Göncüoğlu of Türkiye co-facilitated the regional roundtable during UN Women’s Global Youth Dialogue immediately before CSW69.
 - **Meeting — UN Women pre-zero-draft briefing for UN Youth Delegates**
   - In January 2026, UN Women presented priorities and suggested language compiled from a global youth consultation. Delegates could use them in advocacy, but access to the negotiated text still depended on their national authorities or Permanent Mission including them in the drafting process.
 - **Policy / negotiation — [Youth recommendations feeding CSW advocacy](https://eca.unwomen.org/en/digital-library/publications/2026/01/europe-and-central-asia-youth-recommendations-to-csw70)**
@@ -356,12 +360,14 @@ The Forum does not normally negotiate one zero draft. Only the documented 2025 s
 
 ## Examples
 
+- **Special format — [Ministerial Breakfast with UN Youth Delegates](https://www.un.org/youthaffairs/en/news/opening-new-doors-meaningful-youth-participation-ministerial-breakfast-2026-ecosoc-youth-forum)**
+  - A distinctive setting for direct exchange among ministers, officials, Youth Delegates and youth organizations. The format is officially documented in both 2025 and 2026; participation depends on the year’s invitation and delegation arrangements.
+- **Special format — [MGCY ECOSOC Youth Forum Youth Blast](https://www.unmgcy.org/eyf)**
+  - A youth-led preparatory day organized by the Major Group for Children and Youth before the official Forum, covering capacity-building, strategy, networking, interventions and other participation opportunities. It is not a UNYD-organized event, although UN Youth Delegates can participate.
+- **Initiative — Launch of the UNYD Coordination Collective**
+  - The 2025 Forum provided the in-person setting for launching a peer coordination structure that connected current UN Youth Delegates across countries and later developed into the UNYDs Working Group.
 - **Side event — [Youth Expertise in Action: Mental Health and Decent Work](https://bjv.at/alles-vom-ecosoc-jugendforum-2025/)**
   - A cross-country, youth-partner side event co-developed and co-moderated by UN Youth Delegates during the 2025 Forum.
-- **Meeting — [Ministerial Breakfast](https://www.un.org/youthaffairs/en/news/opening-new-doors-meaningful-youth-participation-ministerial-breakfast-2026-ecosoc-youth-forum)**
-  - A recurring high-value setting for direct exchange among ministers, officials, youth delegates and youth organizations; officially documented in both 2025 and 2026.
-- **Initiative — Launch of the UNYD Coordination Collective**
-  - The 2025 Forum provided an in-person anchor for launching a peer coordination structure and connecting current delegates.
 
 ## Process contacts
 
@@ -375,6 +381,7 @@ The Forum does not normally negotiate one zero draft. Only the documented 2025 s
 - [Official Youth Forum side-event guidance](https://ecosoc.un.org/sites/default/files/2025-02/2025%20Youth%20Forum%20Side%20Events%20Guidelines.pdf)
 - [Official Forum archive](https://ecosoc.un.org/en/what-we-do/ecosoc-youth-forum/about-youth-forum/youth-taking-action-implement-2030-agenda-ecosoc)
 - [2026 Ministerial Breakfast](https://www.un.org/youthaffairs/en/news/opening-new-doors-meaningful-youth-participation-ministerial-breakfast-2026-ecosoc-youth-forum)
+- [MGCY ECOSOC Youth Forum and Youth Blast](https://www.unmgcy.org/eyf)
 
 ---
 
@@ -701,6 +708,8 @@ There is no single annual HRC zero draft. Until a session-specific report, panel
 
 - **Statement — [UNYD interventions in the biennial panel on youth and human rights](https://hrcportal.ohchr.org/panel-discussions)**
   - A session-specific opening created by a mandated HRC panel; the resulting report can become a source for later policy work.
+- **Statement — [Italian UN Youth Delegate statement at HRC61](https://webtv.un.org/en/asset/k1n/k1nx60bmyv)**
+  - Andrea Dongili delivered Italy’s statement during the 4 March 2026 panel discussion on human rights and a culture of peace, providing a public example of a UN Youth Delegate using a formal Council speaking slot.
 - **Meeting — OHCHR–DESA–UN Youth Office follow-up on UNYD participation**
   - A 2026 exchange brought together institutional focal points and current/former youth delegates to discuss practical HRC entry points and recurring barriers.
 
@@ -718,6 +727,7 @@ There is no single annual HRC zero draft. Until a session-specific report, panel
 - [OHCHR calls for input](https://www.ohchr.org/en/calls-for-input-listing)
 - [Youth and human rights resolution adopted in 2024](https://searchlibrary.ohchr.org/record/31693)
 - [HRC60 biennial panel on youth and human rights](https://hrcportal.ohchr.org/60th-regular-session-human-rights-council-0)
+- [HRC61 panel on human rights and a culture of peace](https://webtv.un.org/en/asset/k1n/k1nx60bmyv)
 - [Rights of the child resolution adopted in 2026](https://searchlibrary.ohchr.org/record/35366)
 - [Committee on the Rights of the Child session database](https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/SessionsList.aspx?Treaty=CRC)
 - [OHCHR youth reports and studies](https://www.ohchr.org/en/youth/reports)
