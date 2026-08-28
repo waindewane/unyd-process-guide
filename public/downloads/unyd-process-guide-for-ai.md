@@ -3,14 +3,14 @@ title: "UNYD process guide — website text export"
 format: "Markdown"
 format_version: 1
 content_last_verified: "2026-08-28"
-export_generated_at: "2026-08-28T00:47:41.364Z"
+export_generated_at: "2026-08-28T08:31:05.100Z"
 language: "English"
 audience: "Current and future national UN Youth Delegates and people supporting their preparation"
 ---
 
 # About this file
 
-This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T00:47:41.364Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
+This file contains the substantive text of the **UNYD process guide** website as generated on 2026-08-28T08:31:05.100Z. It can be uploaded to an AI tool as reference material when asking questions about the processes covered by the website.
 
 The website's purpose is: Dates, session structures, negotiation timelines, examples and official links for recurring UN processes.
 

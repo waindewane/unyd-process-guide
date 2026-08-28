@@ -515,8 +515,8 @@ export default function Home() {
         <h1>{siteMeta.title}</h1>
         <p className="hero-copy">{siteMeta.purpose}</p>
         <div className="hero-actions" id="ai-download">
-          <a className="button export-button" href="./downloads/unyd-process-guide-for-ai.md" download>Download text export (.md)</a>
-          <span>Downloads the website’s current text content for uploading to an AI tool and asking questions.</span>
+          <a className="button export-button" href="./downloads/unyd-process-guide-for-ai.md" download>Download text export for AI</a>
+          <span>Download the full content of this website as a text file, then upload it to any AI tool to ask questions about it more easily.</span>
         </div>
       </section>
 
