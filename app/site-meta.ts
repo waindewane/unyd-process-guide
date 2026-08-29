@@ -4,8 +4,8 @@ export const siteMeta = {
   purpose:
     'Dates, session structures, negotiation timelines, examples and official links for recurring UN processes.',
   calendarYear: 2027,
-  lastVerified: '28 August 2026',
-  lastVerifiedIso: '2026-08-28',
+  lastVerified: '29 August 2026',
+  lastVerifiedIso: '2026-08-29',
   scope:
     'The guide covers the core New York cycle, all three regular Human Rights Council windows and the Commission on Narcotic Drugs.',
   interpretation: [

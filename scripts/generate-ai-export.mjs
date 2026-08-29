@@ -64,19 +64,13 @@ function renderProcess(process) {
     '',
     ...negotiationResources.map((resource) => `- **${linkedLabel(resource.label, resource.href)}:** ${resource.description}`),
     ...(process.id === 'unga' ? [`- **${linkedLabel(ungaResolutionWatchlist.label, ungaResolutionWatchlist.href)}:** ${ungaResolutionWatchlist.description}`] : []),
+    ...(process.negotiationDownloads ?? []).map((resource) => `- **${linkedLabel(resource.label, resource.href)}:** ${resource.description}`),
     '',
     '### 2027 preparation and negotiation calendar',
     '',
     operational.calendarNote,
     '',
-    ...operational.milestones.filter((item) => item.status !== 'recent cycle').map((item) => `- **${item.start} to ${item.end} — ${item.label} (${item.status}):** ${item.detail}`),
-    '',
-    '### 2027 file watch',
-    '',
-    `- **Published:** ${process.fileWatch.published}`,
-    `- **Expected next:** ${process.fileWatch.expected}`,
-    `- **Official page:** ${linkedLabel(process.fileWatch.source.label, process.fileWatch.source.href)}`,
-    `- **Practical route:** ${process.fileWatch.route}`,
+    ...operational.milestones.map((item) => `- **${item.start} to ${item.end} — ${item.label} (${item.status}):** ${item.detail}`),
     '',
     `**What to follow:** ${process.negotiations.focus}`,
     '',
@@ -94,9 +88,8 @@ function renderProcess(process) {
     lines.push(`- **${item.when} — ${linkedLabel(item.action, item.href)}:** ${item.detail}`);
   });
 
-  const verifiedExamples = process.examples.filter((example) => example.state === 'verified');
-  if (verifiedExamples.length) lines.push('', '## Examples', '');
-  verifiedExamples.forEach((example) => {
+  lines.push('', '## Examples', '');
+  process.examples.filter((example) => example.state === 'verified').forEach((example) => {
     lines.push(
       `- **${example.kind} — ${linkedLabel(example.title, example.href)}**`,
       `  - ${example.detail}`,

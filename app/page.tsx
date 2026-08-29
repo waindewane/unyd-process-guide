@@ -6,9 +6,6 @@ import { operationalNotes, type PlanningMilestone } from './operational-notes';
 import { siteMeta } from './site-meta';
 
 type Tab = 'overview' | 'negotiations' | 'timeline' | 'examples' | 'contacts';
-type EntryState = 'checking' | 'prompt' | 'accepted' | 'denied';
-
-const entrySessionKey = 'unyd-process-guide-entry-v1';
 
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 const planningZoomLevels = [1, 1.5, 2, 3, 4, 5, 6, 7];
@@ -19,7 +16,7 @@ const calendarBars = [
   { process: 'ecosoc-yf', label: 'Youth Forum', left: 27.9, width: 5.4, minWidth: 78, kind: 'provisional' },
   { process: 'hlpf', label: 'HLPF', left: 50.9, width: 5.2, minWidth: 52, kind: 'provisional' },
   { process: 'unga', label: 'UNGA + Third Committee', left: 68.7, width: 23.9, minWidth: 0, kind: 'official' },
-  { process: 'hrc', label: 'HRC 64', left: 14.8, width: 10.4, minWidth: 0, kind: 'official' },
+  { process: 'hrc', label: 'HRC 64', left: 14.25, width: 10.96, minWidth: 0, kind: 'official' },
   { process: 'hrc', label: 'HRC 65', left: 45.2, width: 7.0, minWidth: 0, kind: 'official' },
   { process: 'hrc', label: 'HRC 66', left: 68.0, width: 9.0, minWidth: 0, kind: 'official' },
   { process: 'cnd', label: 'CND', left: 20.3, width: 4.2, minWidth: 48, kind: 'provisional' },
@@ -84,7 +81,6 @@ function PlanningLegend() {
 
 function ProcessPlanningCalendar({ process }: { process: ProcessGuide }) {
   const note = operationalNotes[process.id];
-  const currentMilestones = note.milestones.filter((milestone) => milestone.status !== 'recent cycle');
   return (
     <section className={`process-planning process-${process.id}`}>
       <div className="planning-heading">
@@ -93,13 +89,19 @@ function ProcessPlanningCalendar({ process }: { process: ProcessGuide }) {
           <a className="button secondary" href={negotiationResources[0].href} target="_blank" rel="noreferrer" title={negotiationResources[0].description}>Negotiation and language guide ↗</a>
           <a className="text-action" href={negotiationResources[1].href} target="_blank" rel="noreferrer" title={negotiationResources[1].description}>UNGA explainer slides · negotiation section ↗</a>
           {process.id === 'unga' && <a className="text-action" href={ungaResolutionWatchlist.href} target="_blank" rel="noreferrer" title={ungaResolutionWatchlist.description}>UNGA81 recurring-resolutions watchlist ↗</a>}
+          {process.negotiationDownloads?.map((resource) => (
+            <div className="process-research-download" key={resource.href}>
+              <a className="text-action" href={resource.href} download={resource.download} target={resource.download ? undefined : '_blank'} rel={resource.download ? undefined : 'noreferrer'}>{resource.label}</a>
+              <span>{resource.description}</span>
+            </div>
+          ))}
           <a className="text-action" href="./calendar/unyd-2027-planning-calendar.ics" download>Download all planning milestones (.ics)</a>
         </div>
       </div>
       <div className="planning-table-scroll" role="region" aria-label={`${process.acronym} 2027 preparation calendar`} tabIndex={0}>
         <div className="planning-table">
           <div className="planning-months"><span />{months.map((month) => <b key={month}>{month}</b>)}</div>
-          {currentMilestones.map((milestone) => (
+          {note.milestones.map((milestone) => (
             <div className="planning-row" key={`${milestone.start}-${milestone.label}`}>
               <div className="planning-label"><strong>{milestone.label}</strong><span>{milestone.status}</span></div>
               <div className="planning-track"><span className={`planning-bar kind-${milestone.kind} status-${milestone.status.replaceAll(' ', '-')}`} style={milestoneStyle(milestone)} title={`${milestone.label}: ${milestone.detail}`} /></div>
@@ -208,7 +210,7 @@ function CombinedPlanningCalendar({ selectProcess }: { selectProcess: (id: strin
             <div className={`combined-process-row process-${process.id}`} key={process.id}>
               <button className="combined-process-label" onClick={() => selectProcess(process.id)}><strong>{process.acronym}</strong><span>{process.location}</span></button>
               <div className="combined-process-track">
-                {operationalNotes[process.id].milestones.filter((milestone) => milestone.status !== 'recent cycle').map((milestone) => (
+                {operationalNotes[process.id].milestones.map((milestone) => (
                   <button
                     key={`${milestone.start}-${milestone.label}`}
                     className={`combined-bar kind-${milestone.kind} status-${milestone.status.replaceAll(' ', '-')} lane-${milestone.lane}`}
@@ -228,7 +230,7 @@ function CombinedPlanningCalendar({ selectProcess }: { selectProcess: (id: strin
         </div>
       </div>
       <PlanningLegend />
-      <p className="calendar-caveat">Tentative bars are early-warning projections, not UN deadlines. Historical precedents remain in the process timelines instead of being plotted on the 2027 axis. Check the linked official process page before acting on a projected date.</p>
+      <p className="calendar-caveat">Tentative and recent-cycle bars are early-warning ranges, not UN deadlines. Recent-cycle bars reproduce dated precedents; tentative bars are clearly identified projections. Check the linked official process page before acting on them.</p>
       {tooltip && (
         <div id="calendar-milestone-tooltip" className={`calendar-tooltip ${tooltip.above ? 'above' : ''}`} role="tooltip" style={{ left: tooltip.left, top: tooltip.top }}>
           <strong>{tooltip.process.acronym} · {tooltip.milestone.label}</strong>
@@ -259,18 +261,16 @@ function ProcessContent({ process, tab }: { process: ProcessGuide; tab: Tab }) {
               <h4>Recurring entry points</h4>
               {overview.strategicEntryPoints.map((entry) => (
                 <article key={entry.title}>
-                  <div className="entry-heading">
+                  <div>
                     <strong>{entry.href ? <a href={entry.href} target="_blank" rel="noreferrer">{entry.title}</a> : entry.title}</strong>
                     <span>{entry.timing}</span>
                   </div>
-                  <div className="entry-copy">
-                    <p>{entry.detail}</p>
-                    {entry.links && (
-                      <div className="entry-links">
-                        {entry.links.map((link) => <a key={link.href} href={link.href} target="_blank" rel="noreferrer">{link.label}</a>)}
-                      </div>
-                    )}
-                  </div>
+                  <p>{entry.detail}</p>
+                  {entry.links && (
+                    <p className="entry-links">
+                      {entry.links.map((link) => <a key={link.href} href={link.href} target="_blank" rel="noreferrer">{link.label}</a>)}
+                    </p>
+                  )}
                   {entry.status && <small>{entry.status}</small>}
                 </article>
               ))}
@@ -293,15 +293,6 @@ function ProcessContent({ process, tab }: { process: ProcessGuide; tab: Tab }) {
     return (
       <div className="section-stack">
         <ProcessPlanningCalendar process={process} />
-        <section className="file-watch" aria-labelledby={`${process.id}-file-watch-title`}>
-          <h3 id={`${process.id}-file-watch-title`}>2027 file watch</h3>
-          <dl>
-            <div><dt>Published</dt><dd>{process.fileWatch.published}</dd></div>
-            <div><dt>Expected next</dt><dd>{process.fileWatch.expected}</dd></div>
-            <div><dt>Official page</dt><dd><a href={process.fileWatch.source.href} target="_blank" rel="noreferrer">{process.fileWatch.source.label} ↗</a></dd></div>
-            <div><dt>Practical route</dt><dd>{process.fileWatch.route}</dd></div>
-          </dl>
-        </section>
         <section>
           <h3>What to follow</h3>
           <p>{process.negotiations.focus}</p>
@@ -332,7 +323,7 @@ function ProcessContent({ process, tab }: { process: ProcessGuide; tab: Tab }) {
   }
 
   if (tab === 'examples') {
-    const groups = ['Special format', 'Side event', 'Statement', 'Policy / negotiation', 'Initiative', 'Meeting'] as const;
+    const groups = ['Side event', 'Statement', 'Policy / negotiation', 'Initiative', 'Meeting'] as const;
     const publicExamples = process.examples.filter((example) => example.state === 'verified');
     return (
       <div className="examples-list">
@@ -401,10 +392,8 @@ function ProcessStructure({ process }: { process: ProcessGuide }) {
 }
 
 export default function Home() {
-  const [entryState, setEntryState] = useState<EntryState>('checking');
   const [activeId, setActiveId] = useState('csocd');
   const [activeTab, setActiveTab] = useState<Tab>('overview');
-  const entryYesRef = useRef<HTMLButtonElement>(null);
   const [annualTooltip, setAnnualTooltip] = useState<{
     title: string;
     date: string;
@@ -418,39 +407,6 @@ export default function Home() {
   const activeProcess = useMemo(() => processById[activeId] ?? processes[0], [activeId]);
   const addUrl = googleCalendarUrl(activeProcess);
 
-  useEffect(() => {
-    const storageCheck = window.setTimeout(() => {
-      try {
-        setEntryState(window.sessionStorage.getItem(entrySessionKey) === 'accepted' ? 'accepted' : 'prompt');
-      } catch {
-        setEntryState('prompt');
-      }
-    }, 0);
-    return () => window.clearTimeout(storageCheck);
-  }, []);
-
-  useEffect(() => {
-    if (entryState === 'prompt') entryYesRef.current?.focus();
-  }, [entryState]);
-
-  useEffect(() => {
-    if (entryState === 'accepted') return;
-    const previousOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
-    return () => {
-      document.body.style.overflow = previousOverflow;
-    };
-  }, [entryState]);
-
-  function acceptEntry() {
-    try {
-      window.sessionStorage.setItem(entrySessionKey, 'accepted');
-    } catch {
-      // The current page can still be opened if browser storage is unavailable.
-    }
-    setEntryState('accepted');
-  }
-
   function selectProcess(id: string, scroll = true) {
     setAnnualTooltip(null);
     setActiveId(id);
@@ -460,7 +416,7 @@ export default function Home() {
   }
 
   function annualBarDate(label: string, process: ProcessGuide) {
-    if (label === 'HRC 64') return '24 February–2 April 2027';
+    if (label === 'HRC 64') return '22 February–2 April 2027';
     if (label === 'HRC 65') return '14 June–9 July 2027';
     if (label === 'HRC 66') return '6 September–8 October 2027';
     return process.date2027;
@@ -481,32 +437,7 @@ export default function Home() {
   }
 
   return (
-    <>
-      {entryState !== 'accepted' && (
-        <div
-          className={`entry-gate state-${entryState}`}
-          role={entryState === 'prompt' ? 'dialog' : 'status'}
-          aria-modal={entryState === 'prompt' ? 'true' : undefined}
-          aria-labelledby={entryState === 'prompt' ? 'entry-question' : entryState === 'denied' ? 'entry-denied' : undefined}
-          aria-busy={entryState === 'checking'}
-        >
-          {entryState === 'prompt' && (
-            <div className="entry-gate-panel">
-              <h1 id="entry-question">Are you currently a UN Youth Delegate?</h1>
-              <div className="entry-gate-actions">
-                <button ref={entryYesRef} type="button" className="entry-yes" onClick={acceptEntry}>Yes, enter</button>
-                <button type="button" className="entry-no" onClick={() => setEntryState('denied')}>No</button>
-              </div>
-            </div>
-          )}
-          {entryState === 'denied' && (
-            <div className="entry-gate-panel">
-              <h1 id="entry-denied">This site is an internal resource only for current UN Youth Delegates.</h1>
-            </div>
-          )}
-        </div>
-      )}
-      <main inert={entryState !== 'accepted'} aria-hidden={entryState !== 'accepted'}>
+    <main>
       <header className="site-header">
         <a className="wordmark" href="#top">UNYD process guide</a>
         <nav aria-label="Page navigation"><a href="#calendar">Calendar</a><a href="#preparation">Preparation</a><a href="#process-library">Processes</a><a href="#ai-download">Text export</a></nav>
@@ -517,8 +448,8 @@ export default function Home() {
         <h1>{siteMeta.title}</h1>
         <p className="hero-copy">{siteMeta.purpose}</p>
         <div className="hero-actions" id="ai-download">
-          <a className="button export-button" href="./downloads/unyd-process-guide-for-ai.md" download>Download text export for AI</a>
-          <span>Download the full content of this website as a text file, then upload it to any AI tool to ask questions about it more easily.</span>
+          <a className="button export-button" href="./downloads/unyd-process-guide-for-ai.md" download>Download text export (.md)</a>
+          <span>Downloads the website’s current text content for uploading to an AI tool and asking questions.</span>
         </div>
       </section>
 
@@ -585,7 +516,7 @@ export default function Home() {
           <ProcessStructure process={activeProcess} />
 
           <div className="tabs" role="tablist" aria-label={`${activeProcess.acronym} sections`}>
-            {tabs.filter((tab) => tab.id !== 'examples' || activeProcess.examples.length > 0).map((tab) => <button key={tab.id} role="tab" aria-selected={activeTab === tab.id} className={activeTab === tab.id ? 'active' : ''} onClick={() => setActiveTab(tab.id)}>{tab.label}</button>)}
+            {tabs.map((tab) => <button key={tab.id} role="tab" aria-selected={activeTab === tab.id} className={activeTab === tab.id ? 'active' : ''} onClick={() => setActiveTab(tab.id)}>{tab.label}</button>)}
           </div>
           <div className="tab-content" role="tabpanel"><ProcessContent process={activeProcess} tab={activeTab} /></div>
         </article>
@@ -604,7 +535,6 @@ export default function Home() {
       </section>
 
       <footer><span>UN Youth Delegate process guide · updated {siteMeta.lastVerified}</span><a href="https://social.desa.un.org/issues/youth/un-youth-delegate-programme" target="_blank" rel="noreferrer">UN Youth Delegate Programme ↗</a></footer>
-      </main>
-    </>
+    </main>
   );
 }
